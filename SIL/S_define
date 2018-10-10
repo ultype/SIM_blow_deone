@@ -1,0 +1,36 @@
+/****************************************************************
+PURPOSE: (S_define File for SIM_cannon_numeric.)
+LIBRARY_DEPENDENCY: (
+    
+)
+****************************************************************/
+#include  "sim_objects/default_trick_sys.sm"
+##include "drone.h"
+##include "wind.h"
+##include "dynamic.h"
+
+class DroneSimObject : public Trick::SimObject {
+    public:
+    Drone drone ;
+    Wind wind ;
+    Dynamic dynamic ;
+
+    DroneSimObject() {
+
+        ("initialization") dynamic.init( 0,0,0,20,500) ;
+        ("initialization") drone.init( 0,0,0,dynamic.center) ;
+        ("initialization") wind.init( 0,0,0) ;
+        
+        ("derivative") dynamic.deriv( &drone, &wind) ;
+        ("integration") trick_ret= dynamic.integ( &drone);
+        ("dynamic_event") dynamic.impact( &drone, &wind) ;
+    
+        ("shutdown") drone.shutdown();
+    }
+};
+
+DroneSimObject dyn ;
+IntegLoop dyn_integloop (0.01) dyn ;
+void create_connections() {
+    dyn_integloop.getIntegrator(Runge_Kutta_4, 4);
+}
