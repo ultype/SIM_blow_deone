@@ -1,0 +1,13 @@
+# JITInputFile auto generated Makefile.  Paths are relative to the simulation directory
+# To manually use this file go to sim directory and use "make -f ./RUN_test/jitlib/Makefile.RUN_input <makefile_target>"
+
+./RUN_test/jitlib/libRUN_input.so: ./RUN_test/jitlib/RUN_input.o
+	/usr/bin/g++ -shared -o $@ $<
+
+./RUN_test/jitlib/RUN_input.o: ./RUN_test/RUN_input.cpp
+	/usr/bin/g++  --std=c++11 -I/usr/local/trick_models -I /home/ultype/trick_sims/SIM_blow_drone/models/drone/include/ -I /home/ultype/trick_sims/SIM_blow_drone/models/wind/include/ -I /home/ultype/trick_sims/SIM_blow_drone/models/dynamic/include/ -DCONFIG_SIL_ENABLE -Wall -Wextra -Wshadow -Imodels -I/usr/local/trick_source -I/usr/local/include -I/usr/local/include/trick/compat -DTRICK_VER=17 -DTRICK_MINOR=4 -fpic  -DUSE_ER7_UTILS_INTEGRATORS -D_HAVE_GSL  -MMD -c -fPIC -o $@ $<
+
+clean:
+	 rm -f ./RUN_test/jitlib/RUN_input.o ./RUN_test/jitlib/libRUN_input.so ./RUN_test/./RUN_test/jitlib/RUN_input.d
+
+-include ./RUN_test/jitlib/RUN_input.d

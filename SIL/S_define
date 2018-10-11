@@ -13,23 +13,26 @@ class DroneSimObject : public Trick::SimObject {
     Drone drone ;
     Wind wind ;
     Dynamic dynamic ;
-
+    double step=0.005;
     DroneSimObject() {
 
-        ("initialization") dynamic.init( 0,0,0,20,500) ;
-        ("initialization") drone.init( 0,0,0,dynamic.center) ;
+        ("initialization") dynamic.init( 0, 0, 0, 20, 500) ;
         ("initialization") wind.init( 0,0,0) ;
+        ("initialization") drone.init( 0, 0, 0,dynamic.center) ;
+
+        dynamic.time = exec_get_sim_time() ;
+        drone.time = dynamic.time ;
         
-        ("derivative") dynamic.deriv( &drone, &wind) ;
-        ("integration") trick_ret= dynamic.integ( &drone);
-        ("dynamic_event") dynamic.impact( &drone, &wind) ;
+        P1 (step,"scheduled") dynamic.deriv( &drone, &wind) ;
+        P1 (step,"scheduled") dynamic.integ( &drone, step);
+        P1 (step,"scheduled") dynamic.impact( &drone, &wind) ;
     
         ("shutdown") drone.shutdown();
     }
 };
 
 DroneSimObject dyn ;
-IntegLoop dyn_integloop (0.01) dyn ;
+
 void create_connections() {
-    dyn_integloop.getIntegrator(Runge_Kutta_4, 4);
+
 }
