@@ -132,7 +132,7 @@ int Drone::shutdown()
     return 0 ;
 }
 
-bool almost_equal(double a, double b, double tolerance)
+bool Drone::almost_equal(double a, double b, double tolerance)
 {
     if(fabs(a-b) <= tolerance) {
         return true;

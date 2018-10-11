@@ -1,6 +1,11 @@
-/*************************************************************************
-PURPOSE: (Represent the state and initial conditions of a cannonball)
-**************************************************************************/
+/********************************* TRICK HEADER *******************************
+PURPOSE:
+      (Wind module)
+LIBRARY DEPENDENCY:
+      ((../src/wind.cpp))
+PROGRAMMERS:
+      (((ultype) () () () ))
+*******************************************************************************/
 #ifndef WIND_HH
 #define WIND_HH
 #include <stdio.h>

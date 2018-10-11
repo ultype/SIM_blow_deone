@@ -1,6 +1,11 @@
-/*************************************************************************
-PURPOSE: (Represent the state and initial conditions of a cannonball)
-*************************************************************************/
+/********************************* TRICK HEADER *******************************
+PURPOSE:
+      (Drone module)
+LIBRARY DEPENDENCY:
+      ((../src/drone.cpp))
+PROGRAMMERS:
+      (((ultype) () () () ))
+*******************************************************************************/
 #ifndef DRONE_HH
 #define DRONE_HH
 

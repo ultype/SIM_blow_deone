@@ -1,9 +1,6 @@
 /****************************************************************
 PURPOSE: (S_define File for SIM_Drone.)
 LIBRARY_DEPENDENCY: (
-     (drone/src/drone.cpp)
-     (dynamic/src/dynamic.cpp)
-     (wind/src/wind.cpp)
 )
 ****************************************************************/
 #include  "sim_objects/default_trick_sys.sm"
