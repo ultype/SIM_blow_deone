@@ -1,1 +1,8 @@
-this is a practice project for nasa trick
+/*this is a practice project for nasa trick*/
+
+//step 1 compile
+$ cd SIL/
+$ trick-CP
+
+//step 2 execute
+$ ./S_main_Linux_5.4_x86_64.exe ./RUN_test/RUN_input.cpp

@@ -18,9 +18,9 @@ PROGRAMMERS:
 #define AXIS_TOLERANCE 0.000001
 
 #define MAX_AXIS_EFORCE 100
-#define SPRINGK 20  //like spring k
-#define SPRINGC 40  //like spring C
-#define DRONE_MASS 30
+#define SPRINGK 6  /* like spring k*/
+#define SPRINGC 2  /* like spring C*/
+#define DRONE_MASS 20
 
 
 class Drone
@@ -39,6 +39,7 @@ public:
     int impact ;        /* -- Has impact occured? */
     double impactTime;  /* s Time of Impact */
     Drone();
+    ~Drone(){};
     int default_data() ;
     int init(double posX0, double posY0, double posZ0, double *center) ;
     int shutdown() ;

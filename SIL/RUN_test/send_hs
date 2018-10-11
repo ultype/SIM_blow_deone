@@ -1,29 +1,34 @@
-|L   1|2018/10/11,14:08:06|ultype-X555LF| |T 0|0.000000| event 3 fired!
-|L   1|2018/10/11,14:08:06|ultype-X555LF| |T 0|10.000000| event 3 fired!
-|L   1|2018/10/11,14:08:06|ultype-X555LF| |T 0|20.000000| event 1 fired!
-|L   1|2018/10/11,14:08:06|ultype-X555LF| |T 0|20.000000| event 3 fired!
-|L   1|2018/10/11,14:08:06|ultype-X555LF| |T 0|30.000000| event 3 fired!
-|L   1|2018/10/11,14:08:06|ultype-X555LF| |T 0|40.000000| event 3 fired!
-|L   1|2018/10/11,14:08:06|ultype-X555LF| |T 0|50.000000| event 3 fired!
-|L   1|2018/10/11,14:08:06|ultype-X555LF| |T 0|60.000000| event 3 fired!
-|L   1|2018/10/11,14:08:06|ultype-X555LF| |T 0|70.000000| event 3 fired!
-|L   1|2018/10/11,14:08:06|ultype-X555LF| |T 0|80.000000| event 2 fired!
-|L   1|2018/10/11,14:08:06|ultype-X555LF| |T 0|80.000000| event 3 fired!
-|L   1|2018/10/11,14:08:06|ultype-X555LF| |T 0|90.000000| event 3 fired!
-|L   1|2018/10/11,14:08:06|ultype-X555LF| |T 0|100.000000| event 3 fired!
-|L   0|2018/10/11,14:08:06|ultype-X555LF| |T 0|101.000000| 
+|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|0.000000| event 3 fired!
+|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|10.000000| event 3 fired!
+|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|20.000000| wind blow 1!
+|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|20.000000| event 3 fired!
+|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|30.000000| event 3 fired!
+|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|40.000000| event 3 fired!
+|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|50.000000| event 3 fired!
+|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|60.000000| event 3 fired!
+|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|70.000000| event 3 fired!
+|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|80.000000| wind blow 2!
+|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|80.000000| event 3 fired!
+|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|90.000000| event 3 fired!
+|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|100.000000| event 3 fired!
+|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|110.000000| event 3 fired!
+|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|120.000000| event 3 fired!
+|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|130.000000| event 3 fired!
+|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|140.000000| event 3 fired!
+|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|150.000000| event 3 fired!
+|L   0|2018/10/11,15:50:17|ultype-X555LF| |T 0|150.000000| 
      REALTIME SHUTDOWN STATS:
-            ACTUAL INIT TIME:        1.155
-         ACTUAL ELAPSED TIME:        1.178
-|L   0|2018/10/11,14:08:06|ultype-X555LF| |T 0|101.000000| 
+            ACTUAL INIT TIME:        1.429
+         ACTUAL ELAPSED TIME:        1.466
+|L   0|2018/10/11,15:50:17|ultype-X555LF| |T 0|150.000000| 
 SIMULATION TERMINATED IN
   PROCESS: 0
   ROUTINE: Executive_loop_single_thread.cpp:98
   DIAGNOSTIC: Reached termination time
 
        SIMULATION START TIME:        0.000
-        SIMULATION STOP TIME:      101.000
-     SIMULATION ELAPSED TIME:      101.000
-        ACTUAL CPU TIME USED:        0.064
-       SIMULATION / CPU TIME:     1586.653
-     INITIALIZATION CPU TIME:        0.041
+        SIMULATION STOP TIME:      150.000
+     SIMULATION ELAPSED TIME:      150.000
+        ACTUAL CPU TIME USED:        0.078
+       SIMULATION / CPU TIME:     1922.338
+     INITIALIZATION CPU TIME:        0.047

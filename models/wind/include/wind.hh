@@ -17,6 +17,7 @@ public:
     double magnitude;   /* kg.m/s^2 engine force magnitude*/
     double time;        /* s Model time */
     Wind();
+    ~Wind(){};
     int default_data();
     int init(double forceX0, double forceY0, double forceZ0);
     int shutdown();

@@ -78,9 +78,9 @@ double Drone::get_distance(double* center) {
 }
 
 int Drone::engine_response(Wind* w, double *center, double bound_range) {
-
+    //printf("almost=%d\n",this->almost_equal(this->get_distance(center), 0.0, bound_range));
     if (!this->almost_equal(this->get_distance(center), 0.0, bound_range)) {
-
+        //printf("light Engine\n");
         int pos_to_centerX, pos_to_centerY, pos_to_centerZ;
         int forceX,forceY,forceZ;
 
@@ -126,8 +126,8 @@ int Drone::shutdown()
     printf( "========================================\n");
     printf( "      drone State at Shutdown     \n");
     printf( "t = %g\n", t);
-    //printf( "pos = [%.9f, %.9f]\n", C->pos[0], C->pos[1]);
-    //printf( "vel = [%.9f, %.9f]\n", C->vel[0], C->vel[1]);
+    printf( "pos = [%.9f, %.9f %.9f]\n", this->pos[0], this->pos[1], this->pos[2]);
+    printf( "vel = [%.9f, %.9f %.9f]\n", this->vel[0], this->vel[1], this->pos[2]);
     printf( "========================================\n");
     return 0 ;
 }

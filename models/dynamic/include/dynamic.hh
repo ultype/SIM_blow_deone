@@ -15,17 +15,18 @@ PROGRAMMERS:
 #include "wind.hh"
 #include "drone.hh"
 #define STABLERANGE 0.001;
-#define BOUNDRANGE 500;
+#define BOUNDRANGE 5000;
 
 class Dynamic {
 public:
-    REGULA_FALSI rf;   //for dynamic impact event
-    double center[3];
-    double stable_range;
-    double bound_range;
- 
+
+    double center[3] ;
+    double stable_range ; 
+    double bound_range ;
+    double time ; 
     Dynamic();
-    int integ(Drone*) ;
+    ~Dynamic(){};
+    int integ(Drone*,double) ;
     int deriv(Drone*,Wind*) ;
     double impact(Drone*,Wind*) ;
 
