@@ -2,7 +2,11 @@
 PURPOSE: (Set the initial data values)
 *************************************************************************/
 /* Model Include files */
-#include "drone.h"
+
+#include "drone.hh"
+Drone::Drone() {
+    this->default_data();
+}
 
 /* default data job */
 int Drone::default_data() {

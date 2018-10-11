@@ -1,15 +1,13 @@
 /*************************************************************************
 PURPOSE: (Represent the state and initial conditions of a cannonball)
-**************************************************************************/
-#ifndef DRONE_H
-#define DRONE_H
+*************************************************************************/
+#ifndef DRONE_HH
+#define DRONE_HH
 
-//#include "../../wind/include/wind.h"
-//#include "../include/drone.h"
-#include "wind.h"
-#include "drone.h"
-#include <math.h>
+#include "wind.hh"
+#include "drone.hh"
 #include "trick/exec_proto.h"
+#include <math.h>
 
 #define DISTANCE_TOLERANCE 0.00001
 #define AXIS_TOLERANCE 0.000001
@@ -19,9 +17,9 @@ PURPOSE: (Represent the state and initial conditions of a cannonball)
 #define SPRINGC 40  //like spring C
 #define DRONE_MASS 30
 
+
 class Drone
 {
-
 public:
     // normal var
     double acc[3] ;     /* m/s2 xy-acceleration */
@@ -35,7 +33,7 @@ public:
     // status variable
     int impact ;        /* -- Has impact occured? */
     double impactTime;  /* s Time of Impact */
-
+    Drone();
     int default_data() ;
     int init(double posX0, double posY0, double posZ0, double *center) ;
     int shutdown() ;

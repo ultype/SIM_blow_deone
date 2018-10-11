@@ -1,7 +1,12 @@
 /************************************************************************
 PURPOSE: (Print the final cannon ball state.)
 *************************************************************************/
-#include "wind.h"
+#include "wind.hh"
+
+Wind::Wind() {
+    this->default_data();
+}
+
 int Wind::shutdown()
 {
     this->time = exec_get_sim_time();

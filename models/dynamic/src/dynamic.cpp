@@ -1,7 +1,11 @@
 /*********************************************************************
   PURPOSE: ( Trick numeric )
 *********************************************************************/
-#include "dynamic.h"
+#include "dynamic.hh"
+
+Dynamic::Dynamic() {
+    this->default_data();
+}
 
 int Dynamic::deriv(Drone *D,Wind *W) {
     D->engine_response(W,this->center,bound_range);   

@@ -1,13 +1,15 @@
 /****************************************************************
-PURPOSE: (S_define File for SIM_cannon_numeric.)
+PURPOSE: (S_define File for SIM_Drone.)
 LIBRARY_DEPENDENCY: (
-    
+     (drone/src/drone.cpp)
+     (dynamic/src/dynamic.cpp)
+     (wind/src/wind.cpp)
 )
 ****************************************************************/
 #include  "sim_objects/default_trick_sys.sm"
-##include "drone.h"
-##include "wind.h"
-##include "dynamic.h"
+##include "drone.hh"
+##include "wind.hh"
+##include "dynamic.hh"
 
 class DroneSimObject : public Trick::SimObject {
     public:
