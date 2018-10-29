@@ -1,34 +1,39 @@
-|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|0.000000| event 3 fired!
-|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|10.000000| event 3 fired!
-|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|20.000000| wind blow 1!
-|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|20.000000| event 3 fired!
-|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|30.000000| event 3 fired!
-|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|40.000000| event 3 fired!
-|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|50.000000| event 3 fired!
-|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|60.000000| event 3 fired!
-|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|70.000000| event 3 fired!
-|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|80.000000| wind blow 2!
-|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|80.000000| event 3 fired!
-|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|90.000000| event 3 fired!
-|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|100.000000| event 3 fired!
-|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|110.000000| event 3 fired!
-|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|120.000000| event 3 fired!
-|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|130.000000| event 3 fired!
-|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|140.000000| event 3 fired!
-|L   1|2018/10/11,15:50:17|ultype-X555LF| |T 0|150.000000| event 3 fired!
-|L   0|2018/10/11,15:50:17|ultype-X555LF| |T 0|150.000000| 
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|0.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|10.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|20.000000| wind blow 1!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|20.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|30.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|40.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|50.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|60.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|70.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|80.000000| wind blow 2!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|80.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|90.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|100.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|110.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|120.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|130.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|140.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|150.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|160.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|170.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|180.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|190.000000| event 3 fired!
+|L   1|2018/10/29,16:05:06|ultype-X555LF| |T 0|200.000000| event 3 fired!
+|L   0|2018/10/29,16:05:06|ultype-X555LF| |T 0|200.000000| 
      REALTIME SHUTDOWN STATS:
-            ACTUAL INIT TIME:        1.429
-         ACTUAL ELAPSED TIME:        1.466
-|L   0|2018/10/11,15:50:17|ultype-X555LF| |T 0|150.000000| 
+            ACTUAL INIT TIME:        0.156
+         ACTUAL ELAPSED TIME:        0.177
+|L   0|2018/10/29,16:05:06|ultype-X555LF| |T 0|200.000000| 
 SIMULATION TERMINATED IN
   PROCESS: 0
   ROUTINE: Executive_loop_single_thread.cpp:98
   DIAGNOSTIC: Reached termination time
 
        SIMULATION START TIME:        0.000
-        SIMULATION STOP TIME:      150.000
-     SIMULATION ELAPSED TIME:      150.000
-        ACTUAL CPU TIME USED:        0.078
-       SIMULATION / CPU TIME:     1922.338
-     INITIALIZATION CPU TIME:        0.047
+        SIMULATION STOP TIME:      200.000
+     SIMULATION ELAPSED TIME:      200.000
+        ACTUAL CPU TIME USED:        0.068
+       SIMULATION / CPU TIME:     2953.904
+     INITIALIZATION CPU TIME:        0.045

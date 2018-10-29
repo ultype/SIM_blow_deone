@@ -17,8 +17,8 @@
 
 extern "C" int run_event_1() {
     message_publish(1, "wind blow 1!\n") ;
-    dyn.wind.Wforce[0] = 20.0 ; //this obj located at S_source.hh
-    dyn.wind.Wforce[1] = 20.0 ;
+    dyn.wind.Wforce[0] = 40.0 ; //this obj located at S_source.hh
+    dyn.wind.Wforce[1] = 40.0 ;
     return 0 ;
 }
 
@@ -100,7 +100,7 @@ extern "C" int run_me() {
 
 //    jit_add_read( 190.0 , "hidden_event" ) ;
 
-    exec_set_terminate_time(150.0) ;
+    exec_set_terminate_time(200.0) ;
 
 /*
     real_time_enable() ;
